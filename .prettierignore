@@ -1,0 +1,13 @@
+node_modules
+.next
+.data
+.local-isl
+.local-ai
+.pnpm-store
+.pnpm-cache
+outputs
+work
+test-results
+playwright-report
+pnpm-lock.yaml
+next-env.d.ts

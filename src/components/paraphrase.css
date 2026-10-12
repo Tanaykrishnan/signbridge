@@ -1,0 +1,370 @@
+.genai-workspace {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+.genai-layout {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.85fr) minmax(420px, 1.15fr);
+  gap: 32px;
+  align-items: start;
+}
+.genai-section-heading,
+.genai-section-heading > div,
+.genai-actions,
+.genai-result-heading,
+.genai-result-tools,
+.genai-editor-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.genai-section-heading,
+.genai-result-heading,
+.genai-editor-footer {
+  justify-content: space-between;
+}
+.genai-section-heading {
+  min-height: 46px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.genai-section-heading strong {
+  font-size: 15px;
+}
+.genai-section-heading svg {
+  color: var(--accent);
+}
+.genai-editor textarea {
+  display: block;
+  width: 100%;
+  min-height: 300px;
+  resize: vertical;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 4px 4px 0 0;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 20px;
+  line-height: 1.65;
+}
+.genai-editor-footer {
+  border: 1px solid var(--border);
+  border-top: 0;
+  padding: 8px 18px;
+  color: var(--muted);
+  font-size: 11px;
+}
+.genai-scenarios {
+  margin-top: 30px;
+}
+.genai-scenarios > .eyebrow {
+  display: block;
+  margin-bottom: 12px;
+}
+.genai-scenarios button {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 47px;
+  width: 100%;
+  padding: 12px 0;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  text-align: left;
+  transition: color 180ms;
+}
+.genai-scenarios button:hover {
+  color: var(--accent);
+}
+.genai-scenarios button > span {
+  font: 10px monospace;
+  color: var(--muted);
+}
+.genai-scenarios button > svg {
+  margin-left: auto;
+}
+.genai-objective {
+  display: flex;
+  gap: 12px;
+  padding: 22px 0;
+  font-size: 12px;
+}
+.genai-objective svg {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+.genai-strategies {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin: 8px 0 20px;
+}
+.genai-strategies button {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  padding: 14px 12px;
+  color: var(--muted);
+  min-height: 46px;
+}
+.genai-strategies button[aria-pressed='true'] {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.genai-actions {
+  flex-wrap: wrap;
+}
+.genai-actions .button {
+  min-height: 46px;
+}
+.genai-boundary {
+  font-size: 12px;
+  margin: 12px 0 20px;
+}
+.genai-model-message {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-left: 2px solid var(--amber);
+  padding: 10px 14px;
+  background: var(--surface);
+}
+.genai-model-message p {
+  font-size: 12px;
+  flex: 1;
+}
+.genai-empty {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  border-top: 1px solid var(--border);
+}
+.genai-empty svg {
+  color: var(--accent);
+}
+.genai-empty h2 {
+  font-size: 24px;
+}
+.genai-empty p {
+  font-size: 13px;
+}
+.genai-result {
+  margin-top: 20px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+}
+.genai-result-heading > span:last-child {
+  font: 11px monospace;
+  color: var(--muted);
+}
+.genai-output {
+  font-size: 20px;
+  line-height: 1.7;
+  color: var(--text);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin: 20px 0;
+}
+.genai-result-tools {
+  justify-content: flex-end;
+  margin-bottom: 18px;
+}
+.genai-checks,
+.genai-prompt,
+.genai-history {
+  border-top: 1px solid var(--border);
+  padding: 14px 0;
+}
+.paraphrase-panel summary {
+  cursor: pointer;
+  font-size: 12px;
+}
+.genai-checks summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.genai-checks summary > span {
+  color: var(--muted);
+  margin-left: auto;
+  font-size: 10px;
+}
+.genai-checks ul {
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+}
+.genai-checks li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 12px 0;
+  font-size: 12px;
+}
+.genai-checks li > svg {
+  margin-top: 3px;
+  color: var(--amber);
+  flex-shrink: 0;
+}
+.genai-checks li > div {
+  flex: 1;
+}
+.genai-checks li > span {
+  font: 10px monospace;
+  color: var(--muted);
+}
+.genai-checks p,
+.genai-history > p {
+  font-size: 11px;
+  margin-top: 6px;
+}
+.genai-prompt dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  font-size: 12px;
+  margin: 18px 0;
+}
+.genai-prompt dt {
+  color: var(--muted);
+  font-size: 10px;
+}
+.genai-prompt dd {
+  margin: 4px 0;
+  overflow-wrap: anywhere;
+}
+.genai-prompt pre {
+  padding: 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 11px;
+  line-height: 1.65;
+  max-height: 360px;
+  overflow: auto;
+}
+.genai-error {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 16px;
+  border-left: 2px solid var(--amber);
+  background: var(--surface);
+  font-size: 13px;
+  color: var(--amber);
+}
+.genai-generating {
+  padding: 30px 0;
+}
+.genai-generating p {
+  font-size: 12px;
+  margin-top: 16px;
+}
+.genai-loading-line {
+  height: 2px;
+  background: var(--accent);
+  transform-origin: left;
+  animation: genai-loading 1.8s ease-in-out infinite;
+}
+@keyframes genai-loading {
+  0%,
+  100% {
+    transform: scaleX(0.12);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+.genai-comparison {
+  border-top: 1px solid var(--border);
+  margin-top: 26px;
+  padding-top: 20px;
+  overflow-x: auto;
+}
+.genai-comparison table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.genai-comparison th {
+  text-align: left;
+  font-weight: 500;
+  color: var(--muted);
+}
+.genai-comparison td,
+.genai-comparison th {
+  padding: 12px 8px;
+  border-bottom: 1px solid var(--border);
+}
+.genai-history {
+  margin-top: 24px;
+}
+.genai-history summary > span {
+  margin-left: 10px;
+  color: var(--accent);
+}
+.genai-history-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  padding: 14px 0;
+  font-size: 12px;
+}
+.genai-history-item > span {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+.genai-history-item > small {
+  color: var(--muted);
+  white-space: nowrap;
+  font-size: 10px;
+}
+.paraphrase-panel.compact {
+  margin: 24px 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+.compact .genai-section-heading {
+  gap: 6px;
+}
+.compact .genai-section-heading strong {
+  font-size: 13px;
+}
+.compact .genai-strategies button {
+  font-size: 11px;
+  padding: 12px 8px;
+}
+.compact .genai-output {
+  font-size: 16px;
+}
+.compact .genai-actions .button {
+  width: 100%;
+}
+.compact .genai-section-heading .badge {
+  font-size: 9px;
+}
+@media (max-width: 1000px) {
+  .genai-layout {
+    grid-template-columns: 1fr;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .genai-loading-line {
+    animation: none;
+  }
+}
+html[data-motion='reduced'] .genai-loading-line {
+  animation: none;
+}

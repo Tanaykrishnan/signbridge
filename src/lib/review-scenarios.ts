@@ -1,0 +1,45 @@
+export const REVIEW_SCENARIOS = [
+  {
+    id: 'campus',
+    label: 'Campus question',
+    text: 'What time does the SRM Central Library close today?',
+    required: ['SRM Central Library', 'today'],
+    objective: 'Preserve the institution and the time question.',
+  },
+  {
+    id: 'negation',
+    label: 'Negation and time',
+    text: 'I do not need an appointment today, but I need one tomorrow.',
+    required: ['today', 'tomorrow'],
+    objective: 'Preserve opposite appointment needs and their time scope.',
+  },
+  {
+    id: 'name',
+    label: 'Unfamiliar place',
+    text: 'Where can I find the Kattankulathur Student Services Centre, and what documents do I need to apply for a bonafide certificate?',
+    required: ['Kattankulathur', 'bonafide', 'documents'],
+    objective: 'Retain unfamiliar words and both questions.',
+  },
+  {
+    id: 'paragraph',
+    label: 'Long paragraph',
+    text: 'Hi, I am a third-year CSE student and I need to get my bonafide certificate for an internship application. I am not sure which office handles this or whether I have to submit any documents beforehand. I will be on campus tomorrow afternoon, so I would also like to know where the office is located, what time it closes, and whether I need an appointment before going there.',
+    required: [
+      'CSE',
+      'bonafide',
+      'internship',
+      'tomorrow',
+      'afternoon',
+      'documents',
+      'appointment',
+    ],
+    objective: 'Retain every request, uncertainty, and the visit time.',
+  },
+  {
+    id: 'numbers',
+    label: 'Numbers and condition',
+    text: 'My appointment is at 14:30 in room 205 tomorrow. If the office is closed, please do not cancel it without contacting me.',
+    required: ['14:30', '205', 'tomorrow'],
+    objective: 'Preserve numeric details, the condition, and the cancellation prohibition.',
+  },
+] as const;

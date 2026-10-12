@@ -1,0 +1,414 @@
+{
+  "source": "https://data.mendeley.com/datasets/kcmpdxky7p/1",
+  "doi": "10.17632/kcmpdxky7p.1",
+  "authors": ["Elakkiya R", "NATARAJAN B"],
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Elakkiya R; NATARAJAN B (2021), ISL-CSLTR, version 1. Sentence/gloss columns extracted from the publisher CSV; surrounding whitespace removed. No videos or images included.",
+  "records": [
+    {
+      "text": "are you free today",
+      "gloss": "YOU FREE TODAY"
+    },
+    {
+      "text": "are you hiding something",
+      "gloss": "YOU HIDE SOMETHING"
+    },
+    {
+      "text": "bring water for me",
+      "gloss": "BRING WATER ME"
+    },
+    {
+      "text": "can i help you",
+      "gloss": "I HELP YOU"
+    },
+    {
+      "text": "can you repeat that please",
+      "gloss": "YOU REPEAT PLEASE"
+    },
+    {
+      "text": "comb your hair",
+      "gloss": "COMB YOU HAIR"
+    },
+    {
+      "text": "congratulations",
+      "gloss": "CONGRATULATIIONS"
+    },
+    {
+      "text": "could you please talk slower",
+      "gloss": "YOU PLEASE TALK SLOWER"
+    },
+    {
+      "text": "do me a favour",
+      "gloss": "DO ME FAVOUR"
+    },
+    {
+      "text": "do not abuse him",
+      "gloss": "DONOT ABUSE HIM"
+    },
+    {
+      "text": "do not be stubborn",
+      "gloss": "DONOT BE STUBBORN"
+    },
+    {
+      "text": "do not hurt me",
+      "gloss": "DONOT HURT ME"
+    },
+    {
+      "text": "do not make me angry",
+      "gloss": "DO NOT MAKE ME ANGRY"
+    },
+    {
+      "text": "do not take it to the heart",
+      "gloss": "DO NOT TAKE IT HEART"
+    },
+    {
+      "text": "do not worry",
+      "gloss": "DO NOT WORRY"
+    },
+    {
+      "text": "do you need something",
+      "gloss": "DO YOU NEED SOMETHING"
+    },
+    {
+      "text": "go and sleep",
+      "gloss": "GO SLEEP"
+    },
+    {
+      "text": "had your food",
+      "gloss": "YOUR FOOD"
+    },
+    {
+      "text": "he came by train",
+      "gloss": "HE CAME TRAIN"
+    },
+    {
+      "text": "He is going into the room",
+      "gloss": "HE GO  INTO  ROOM"
+    },
+    {
+      "text": "he is on the way",
+      "gloss": "HE ON WAY"
+    },
+    {
+      "text": "he she is my friend",
+      "gloss": "HE SHE MY FRIEND"
+    },
+    {
+      "text": "he would be coming today",
+      "gloss": "HE COMING TODAY"
+    },
+    {
+      "text": "help me",
+      "gloss": "HELP ME"
+    },
+    {
+      "text": "hi how are you",
+      "gloss": "HI HOW YOU"
+    },
+    {
+      "text": "how are things",
+      "gloss": "HOW THINGS"
+    },
+    {
+      "text": "how can i help you",
+      "gloss": "HOW I HELP YOU"
+    },
+    {
+      "text": "how can i trust you",
+      "gloss": "HOW I TRUST YOU"
+    },
+    {
+      "text": "how dare you",
+      "gloss": "HOW DARE YOU"
+    },
+    {
+      "text": "how old are you",
+      "gloss": "HOW OLD YOU"
+    },
+    {
+      "text": "i am (age)",
+      "gloss": "I (AGE)"
+    },
+    {
+      "text": "i am afraid of that",
+      "gloss": "I AFRAID THAT"
+    },
+    {
+      "text": "i am crying",
+      "gloss": "I CRY"
+    },
+    {
+      "text": "i am feeling bored",
+      "gloss": "I FEELING BORED"
+    },
+    {
+      "text": "i am feeling cold",
+      "gloss": "I FEELING COLD"
+    },
+    {
+      "text": "i am fine. thank you sir",
+      "gloss": "I FINE. THANK YOU SIR"
+    },
+    {
+      "text": "i am hungry",
+      "gloss": "I HUNGRY"
+    },
+    {
+      "text": "i am in dilemma what to do",
+      "gloss": "I IN DILEMMA WHAT TO DO"
+    },
+    {
+      "text": "i am not really sure",
+      "gloss": "I NOT REALLY SURE"
+    },
+    {
+      "text": "i am really grateful",
+      "gloss": "I REALLY GRATEFUL"
+    },
+    {
+      "text": "i am sitting in the class",
+      "gloss": "I SITTING IN THE CLASS"
+    },
+    {
+      "text": "i am so sorry to hear that",
+      "gloss": "I AM SO SORRY TO HEAR THAT"
+    },
+    {
+      "text": "i am suffering from fever",
+      "gloss": "I SUFFERING FROM FEVER"
+    },
+    {
+      "text": "i am tired",
+      "gloss": "I TIRED"
+    },
+    {
+      "text": "i am very happy",
+      "gloss": "I VERY HAPPY"
+    },
+    {
+      "text": "i can not help you there",
+      "gloss": "I NOT HELP YOU THERE"
+    },
+    {
+      "text": "i do not agree",
+      "gloss": "I DONOT AGREE"
+    },
+    {
+      "text": "i do not like it",
+      "gloss": "I DO NOT LIKE IT"
+    },
+    {
+      "text": "i do not mean it",
+      "gloss": "I DO NOT MEAN IT"
+    },
+    {
+      "text": "i dont agree",
+      "gloss": "I DONT AGREE"
+    },
+    {
+      "text": "i enjoyed a lot",
+      "gloss": "I ENJOYED A LOT"
+    },
+    {
+      "text": "i got hurt",
+      "gloss": "I GOT HURT"
+    },
+    {
+      "text": "i like you i love you",
+      "gloss": "I LIKE YOU I LOVE YOU"
+    },
+    {
+      "text": "i need water",
+      "gloss": "I NEED WATER"
+    },
+    {
+      "text": "i promise",
+      "gloss": "I PROMISE"
+    },
+    {
+      "text": "i really appreciate it",
+      "gloss": "I REALLY APPRECIATE IT"
+    },
+    {
+      "text": "i somehow got to know about it",
+      "gloss": "I SOMEHOW GOT KNOW ABOUT IT"
+    },
+    {
+      "text": "i was stopped by some one",
+      "gloss": "I STOPPED BY SOMEONE"
+    },
+    {
+      "text": "it does not make any difference to me",
+      "gloss": "IT DO NOT MAKE ANY DIFFERENCE TO ME"
+    },
+    {
+      "text": "it was nice chatting with you",
+      "gloss": "IT NICE CHAT WITH YOU"
+    },
+    {
+      "text": "let him take time",
+      "gloss": "LET HIM TAKE TIME"
+    },
+    {
+      "text": "my name is xxxxxxxx",
+      "gloss": "MY NAME XXXXXXXX"
+    },
+    {
+      "text": "nice to meet you",
+      "gloss": "NICE MEET YOU"
+    },
+    {
+      "text": "No need to worry dont worry",
+      "gloss": "NO NEED WORRY DONT WORRY"
+    },
+    {
+      "text": "now onwards he will never hurt you",
+      "gloss": "NOW ONWARDS HE NEVER HURT YOU"
+    },
+    {
+      "text": "pour some more water into the glass",
+      "gloss": "POUR SOME MORE WATER INTO THE GLASS"
+    },
+    {
+      "text": "prepare the bed",
+      "gloss": "PREPARE BED"
+    },
+    {
+      "text": "serve the food",
+      "gloss": "SERVE FOOD"
+    },
+    {
+      "text": "shall we go outside",
+      "gloss": "WE GO OUTSIDE"
+    },
+    {
+      "text": "speak softly",
+      "gloss": "SPEAK SOFTLY"
+    },
+    {
+      "text": "take care of yourself",
+      "gloss": "TAKE CARE OF YOURSELF"
+    },
+    {
+      "text": "tell me truth",
+      "gloss": "TELL ME TRUTH"
+    },
+    {
+      "text": "thank you so much",
+      "gloss": "THANK YOU SO MUCH"
+    },
+    {
+      "text": "that is so kind of you",
+      "gloss": "THAT KIND YOU"
+    },
+    {
+      "text": "This place is beautiful",
+      "gloss": "THIS PLACE BEAUTIFUL"
+    },
+    {
+      "text": "try to understand",
+      "gloss": "TRY TO UNDERSTAND"
+    },
+    {
+      "text": "turn on light turn off light",
+      "gloss": "TURN ON LIGHT TURN OFF LIGHT"
+    },
+    {
+      "text": "we are all with you",
+      "gloss": "WE ALL WITH YOU"
+    },
+    {
+      "text": "wear the shirt",
+      "gloss": "WEAR SHIRT"
+    },
+    {
+      "text": "what are you doing",
+      "gloss": "WHAT YOU DO"
+    },
+    {
+      "text": "what did you tell him",
+      "gloss": "WHAT YOU TELL HIM"
+    },
+    {
+      "text": "what do you do",
+      "gloss": "WHAT YOU DO"
+    },
+    {
+      "text": "what do you think",
+      "gloss": "WHAT DO YOU THINK"
+    },
+    {
+      "text": "what do you want to become",
+      "gloss": "WHAT DO YOU WANT BECOME"
+    },
+    {
+      "text": "what happened",
+      "gloss": "WHAT HAPPENED"
+    },
+    {
+      "text": "what have you planned for your career",
+      "gloss": "WHAT HAVE YOU PLAN YOUR CAREER"
+    },
+    {
+      "text": "what is your phone number",
+      "gloss": "WHAT YOUR PHONE NUMBER"
+    },
+    {
+      "text": "what you want",
+      "gloss": "WHAT YOU WANT"
+    },
+    {
+      "text": "when will the train leave",
+      "gloss": "WHEN TRAIN LEAVE"
+    },
+    {
+      "text": "where are you from",
+      "gloss": "WHERE YOU FROM"
+    },
+    {
+      "text": "which college school are you from",
+      "gloss": "WHICH COLLEGE SCHOOL YOU FROM"
+    },
+    {
+      "text": "who are you",
+      "gloss": "WHO YOU"
+    },
+    {
+      "text": "why are you angry",
+      "gloss": "WHY YOU ANGRY"
+    },
+    {
+      "text": "why are you crying",
+      "gloss": "WHY YOU CRY"
+    },
+    {
+      "text": "why are you disappointed",
+      "gloss": "WHY YOU DISAPPOINTED"
+    },
+    {
+      "text": "you are bad",
+      "gloss": "YOU BAD"
+    },
+    {
+      "text": "you are good",
+      "gloss": "YOU GOOD"
+    },
+    {
+      "text": "you are welcome",
+      "gloss": "YOU WELCOME"
+    },
+    {
+      "text": "you can do it",
+      "gloss": "YOU DO IT"
+    },
+    {
+      "text": "you do anything, i do not care",
+      "gloss": "YOU DO ANYTHING, I DO NOT CARE"
+    },
+    {
+      "text": "you need a medicine, take this one",
+      "gloss": "YOU NEED A MEDICINE, TAKE THIS ONE"
+    }
+  ]
+}

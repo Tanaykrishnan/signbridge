@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "avatar": {
+    "url": null,
+    "name": "Studio rig / procedural",
+    "source": "Original procedural geometry in src/lib/avatar-rig.ts",
+    "license": "MIT (project code)",
+    "boneMap": {}
+  },
+  "signs": [
+    {
+      "id": "demo-open",
+      "label": "Open-hand motion",
+      "gloss": null,
+      "clip": "demo-open",
+      "asset": null,
+      "duration": 2.4,
+      "transition": 0.2,
+      "review": "illustrative",
+      "source": "Original procedural motion",
+      "license": "MIT (project code)",
+      "provenance": "Engineering demonstration only. No linguistic review. Not an ISL sign.",
+      "available": true,
+      "handshape": "Open procedural fingers",
+      "movement": "Right forearm raises and rotates",
+      "facialExpression": "Neutral placeholder",
+      "fallback": "rest"
+    },
+    {
+      "id": "demo-reach",
+      "label": "Reach motion",
+      "gloss": null,
+      "clip": "demo-reach",
+      "asset": null,
+      "duration": 2.2,
+      "transition": 0.2,
+      "review": "illustrative",
+      "source": "Original procedural motion",
+      "license": "MIT (project code)",
+      "provenance": "Engineering demonstration only. No linguistic review. Not an ISL sign.",
+      "available": true,
+      "movement": "Forearms move outward",
+      "facialExpression": "Neutral placeholder",
+      "fallback": "rest"
+    },
+    {
+      "id": "demo-rest",
+      "label": "Return to neutral",
+      "gloss": null,
+      "clip": "demo-rest",
+      "asset": null,
+      "duration": 1.4,
+      "transition": 0.15,
+      "review": "illustrative",
+      "source": "Original procedural motion",
+      "license": "MIT (project code)",
+      "provenance": "Engineering demonstration only. No linguistic review. Not an ISL sign.",
+      "available": true,
+      "movement": "Arms settle at sides",
+      "fallback": "rest"
+    },
+    {
+      "id": "pending-library",
+      "label": "Library phrase asset",
+      "gloss": null,
+      "clip": "isl-library-reviewed",
+      "asset": null,
+      "duration": 3,
+      "transition": 0.2,
+      "review": "unreviewed",
+      "source": "No asset supplied",
+      "license": "Not supplied",
+      "provenance": "Requires a licensed ISL animation and documented expert review.",
+      "available": false,
+      "fallback": "skip"
+    }
+  ]
+}

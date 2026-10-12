@@ -1,0 +1,53 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url = env("DATABASE_URL")
+}
+model User {
+  id String @id
+  authSubject String? @unique
+  createdAt DateTime @default(now())
+  history TranslationHistory[]
+  favorites Favorite[]
+}
+model PhraseEntry {
+  id String @id
+  text String
+  category String
+  review String
+  payload Json
+  favorites Favorite[]
+  history TranslationHistory[]
+  @@index([category, review])
+}
+model SignAsset {
+  id String @id
+  clip String
+  review String
+  available Boolean @default(false)
+  payload Json
+}
+model TranslationHistory {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sourceText String @db.VarChar(5000)
+  outputMode String @default("isl")
+  phraseId String?
+  phrase PhraseEntry? @relation(fields: [phraseId], references: [id], onDelete: SetNull)
+  status String
+  createdAt DateTime @default(now())
+  @@index([userId, createdAt])
+}
+model Favorite {
+  id String @id @default(cuid())
+  userId String
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  phraseId String
+  phrase PhraseEntry @relation(fields: [phraseId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  @@unique([userId, phraseId])
+  @@index([userId, createdAt])
+}
